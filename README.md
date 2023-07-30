@@ -7,44 +7,30 @@
 - How To Run
 
 ## Screenshort
-![Screenshot 2023-06-21 225225](https://github.com/Ash0807/TSF-Basic-Banking-System-Project/assets/93093775/337c08ce-c70a-4be4-a16d-c0027ddcdd53)
+![Screenshot 2023-07-30 225858](https://github.com/Ash0807/Basic-Banking-System-Project/assets/93093775/394f312b-d257-46fe-937d-ac981d9c1b4d)
 
 
 
 ## Description
-- This a Internship project by Sparks Foundation.
-- This project is built on HTML/CSS, Bootstrap and MySQL.
+- This a Internship project built under the Sparks Foundation.
 - Details of Customers are maintained as `Name`, `Email`, `Amount` are fields.
-- Transaction is done through PDO, If some Error occured while Transaction changes made to table is Rollback(Reverted).  
+- If some Error occured while Transaction changes made to table is Rollback(Reverted).
+- The Tech stack which I used in this project:-
+  
+- ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+- ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+- ![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+- ![](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 
 ## First Time Installation
 - Clone the Repository.
-- Make sure you have installed XAMP on your computer.
-- Copy this folder(Sparks-Foundation) to XAMP installation Directory and then inside htdocs folder.
-
-```
-For Example
-C:\xampp\htdocs\
-```
-- Open Xamp Control Panel. Click on Start button near Apache and MySQL.
-- Open browser type the following into search bar.
-```
-http://localhost/Sparks-Foundation/firsttime.php
-```
-- If everything works fine you would see this on your browser.
-```
-Conection was established Succesfully.
-DATABASE Created Successfully.
-Customer Table Created Successfully.
-Entries added to table Successfully.
-Transaction Table Created Successfully.
-```
-- This means that you have created a database name bank, a table name customers also added 10 entries to table and finally creating a table name Transaction.
+- Make sure you have installed Visual Studio on your computer.
+- Simply run the code on the Visual Studio on your computer.
+- Now you can add customer information as per your required entries to the table (Add user).
 
 ## How To Run
-- After following steps above(First Time Installation).
-- Make Sure XAMP is active with Apache and MySQL Server Enabled.
-- Open Browser Enter the following URL:
-```
-http://localhost/Sparks-Foundation/
-```
+- After following steps above.
+- View all customers (By entering the User Details).
+- Transfer Money (Send Money).
+- View Transaction History
+
